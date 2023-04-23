@@ -2,8 +2,11 @@
 
 ## Specifications
 **Unity Version**: 2021.3.15f1
+
 **Build**: `Build/amulder_WhackAMole.apk`
+
 **Build Platform**: Android
+
 **Build Tested**: Samsung Galaxy S22, Android 13
 
 ## Project Structure
