@@ -32,5 +32,6 @@ Almost everything was build using a presenter and view approach. Presenters are 
 	 - It's somewhat complex to make sure all dependencies are added in the correct order.
 	 - There is no support for circular dependencies due to this.
  - Add examples of different gameplay elements to showcase flexibility of the code structure;
- - Adding an object pool for signals to prevent new instances of `UpdateRoundTimeSignal` being created every frame.
+ - Adding an object pool for signals to prevent new instances of `UpdateRoundTimeSignal` being created every frame;
  	- This could also be solved by only sending the signal every second.
+- Nothing is being disposed or being unsubscribed from events or signals.
